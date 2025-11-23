@@ -1,0 +1,10 @@
+package com.example.freefiction.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.freefiction.entity.UserLogin;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserLoginMapper extends BaseMapper<UserLogin> {
+
+}
